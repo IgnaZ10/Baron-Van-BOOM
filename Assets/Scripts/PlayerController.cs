@@ -4,60 +4,28 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5.0f; // La velocidad de movimiento del personaje
-    private bool isFrozen = false; // Variable que indica si el personaje está congelado
-    private Vector3 frozenDirection; // Variable que almacena la dirección en la que se mueve el personaje antes de congelarse
+    public float speed = 5.0f;
 
-    // Método que se llama una vez por cuadro
-    private void Update()
+    void Update()
     {
-        // Solo permitir el movimiento si el personaje no está congelado
-        if (!isFrozen)
+        // Movimiento hacia adelante y hacia atrás
+        if (Input.GetKey(KeyCode.W))
         {
-            // Obtener la entrada de movimiento horizontal y vertical
-            float horizontalInput = Input.GetAxis("Horizontal");
-            float verticalInput = Input.GetAxis("Vertical");
-
-            // Crear un vector de movimiento en función de la entrada del jugador
-            Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput);
-
-            // Normalizar el vector de movimiento para que no se mueva más rápido en diagonal
-            movement.Normalize();
-
-            // Multiplicar el vector de movimiento por la velocidad de movimiento y por el tiempo transcurrido desde el último cuadro
-            movement *= moveSpeed * Time.deltaTime;
-
-            // Mover el personaje en función del vector de movimiento
-            transform.Translate(movement, Space.World);
+            transform.position += transform.forward * speed * Time.deltaTime;
         }
-    }
-
-    // Método que se llama cuando el personaje colisiona con otro objeto
-    private void OnCollisionEnter(Collision collision)
-    {
-        // Verificar si el objeto con el que colisionó tiene un BoxCollider
-        if (collision.collider is BoxCollider)
+        else if (Input.GetKey(KeyCode.S))
         {
-            // Congelar al personaje en la dirección en la que se estaba moviendo
-            isFrozen = true;
-            frozenDirection = transform.forward;
+            transform.position -= transform.forward * speed * Time.deltaTime;
         }
-    }
 
-    // Método que se llama cuando el personaje deja de colisionar con otro objeto
-    private void OnCollisionExit(Collision collision)
-    {
-        // Descongelar al personaje
-        isFrozen = false;
-    }
-
-    // Método que se llama una vez por cuadro después de que se hayan actualizado todos los objetos
-    private void LateUpdate()
-    {
-        // Si el personaje está congelado, moverlo solo en la dirección en la que se estaba moviendo
-        if (isFrozen)
+        // Movimiento hacia la izquierda y hacia la derecha
+        if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(frozenDirection * moveSpeed * Time.deltaTime, Space.World);
+            transform.position -= transform.right * speed * Time.deltaTime;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += transform.right * speed * Time.deltaTime;
         }
     }
 
