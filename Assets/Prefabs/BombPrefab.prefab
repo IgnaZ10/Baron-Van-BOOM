@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9031469085983452921}
   - component: {fileID: 5255288205871345402}
   - component: {fileID: 4832954090286117982}
-  - component: {fileID: 3157725656997912703}
+  - component: {fileID: 8604773093781452052}
   m_Layer: 0
   m_Name: BombPrefab
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 307422452920230948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.704569, y: 96.45119, z: -51.42471}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,16 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &3157725656997912703
-SphereCollider:
+--- !u!114 &8604773093781452052
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307422452920230948}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dff726858365f5429ca3d029d553440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoExplosion: 3
+  radioExplosion: 100
