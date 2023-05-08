@@ -97,4 +97,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoExplosion: 3
-  radioExplosion: 5
+  radioExplosion: 8
