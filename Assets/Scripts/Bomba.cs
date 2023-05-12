@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class Bomba : MonoBehaviour
 {
-    [SerializeField] float tiempoExplosion = 3f; 
-    [SerializeField] float radioExplosion = 5f; 
+    [SerializeField] float tiempoExplosion = 0f; 
+    public float radioExplosion = 5f;
+    public float duracionExplosion = 3f;
+    
+    
     void Start()
     {
         
@@ -11,17 +14,40 @@ public class Bomba : MonoBehaviour
     }
     void Explode()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, radioExplosion);
-
-        foreach (Collider nearbyObject in colliders)
+        while (tiempoExplosion < duracionExplosion)
         {
-            Rigidbody rb = nearbyObject.GetComponent<Rigidbody>();
+            tiempoExplosion += Time.deltaTime;
 
-            if (rb != null)
+            // Lanzar raycast hacia la izquierda
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, -transform.right, out hit, radioExplosion))
             {
-                rb.AddExplosionForce(1000f, transform.position, radioExplosion);
+                // Si el raycast alcanza un objeto, hacer algo con el objeto
+                Debug.Log("Objeto alcanzado: " + hit.collider.name);
             }
-        }
-        Destroy(this.gameObject, 0.5f);
+
+            // Lanzar raycast hacia la derecha
+            if (Physics.Raycast(transform.position, transform.right, out hit, radioExplosion))
+            {
+                // Si el raycast alcanza un objeto, hacer algo con el objeto
+                Debug.Log("Objeto alcanzado: " + hit.collider.name);
+            }
+
+            // Lanzar raycast hacia adelante
+            if (Physics.Raycast(transform.position, transform.forward, out hit, radioExplosion))
+            {
+                // Si el raycast alcanza un objeto, hacer algo con el objeto
+                Debug.Log("Objeto alcanzado: " + hit.collider.name);
+            }
+
+            // Lanzar raycast hacia atrás
+            if (Physics.Raycast(transform.position, -transform.forward, out hit, radioExplosion))
+            {
+                // Si el raycast alcanza un objeto, hacer algo con el objeto
+                Debug.Log("Objeto alcanzado: " + hit.collider.name);
+            }
+            Destroy(this.gameObject, 0.5f);
+    }
+
     }
 }
