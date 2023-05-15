@@ -1219,6 +1219,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube 1 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
+      propertyPath: m_TagString
+      value: Destructible
+      objectReference: {fileID: 0}
     - target: {fileID: 5054298329858119471, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
       propertyPath: m_Mass
       value: 1000
@@ -2938,7 +2946,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1197393954903755101, guid: 412c85da45d91ed4b81c1754e95ddc16, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1197393954903755102, guid: 412c85da45d91ed4b81c1754e95ddc16, type: 3}
       propertyPath: m_Name

@@ -4,10 +4,10 @@ public class Bomba : MonoBehaviour
 {
     public float tiempoExplosion = 3f; // El tiempo que tarda la bomba en explotar
     public float radioExplosion = 5f; // El radio de la explosión de la bomba
-
+    public Transform a, b;
     private bool haExplotado = false; // Indica si la bomba ha explotado
     private float tiempoRestante; // Tiempo restante para que la bomba explote
-
+    
     void Start()
     {
         tiempoRestante = tiempoExplosion;
@@ -29,24 +29,17 @@ public class Bomba : MonoBehaviour
     void Explode()
     {
         haExplotado = true;
-        GetComponent<MeshRenderer>().enabled = false;
-        Collider[] colliders = Physics.OverlapSphere(transform.position, radioExplosion);
-
-        foreach (Collider nearbyObject in colliders)
+        //proyectil arriba
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, radioExplosion))
         {
-            Rigidbody rb = nearbyObject.GetComponent<Rigidbody>();
-
-            if (rb != null)
-            {
-                rb.AddExplosionForce(1000f, transform.position, radioExplosion);
-            }
+            Debug.Log(hit.collider.name);
+            Debug.DrawLine(transform.position, transform.forward * radioExplosion);
+            
         }
-
+        
         Destroy(gameObject, 0.5f);
     }
-    private void OnDrawGizmos()
-    {
-        Debug.DrawRay(transform.position, transform.forward * 10, Color.red);
-    }
+    
 }
 
