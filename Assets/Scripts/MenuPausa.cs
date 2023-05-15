@@ -49,6 +49,8 @@ public class MenuPausa : MonoBehaviour
 
     public void Cerrar()
     {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("MainMenu");
     }
 }
