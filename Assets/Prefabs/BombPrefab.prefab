@@ -97,8 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoExplosion: 3
-  radioExplosion: 8
-  proyectilBomba: {fileID: 2085582740339959971, guid: f1b4856f00a9bad48ab183c43bcd1d7c, type: 3}
-  lasyerMask:
-    serializedVersion: 2
-    m_Bits: 0
+  radioExplosion: 15
+  a: {fileID: 0}
+  b: {fileID: 0}
