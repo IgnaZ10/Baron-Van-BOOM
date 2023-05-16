@@ -4,7 +4,7 @@ public class Bomba : MonoBehaviour
 {
     public float tiempoExplosion = 3f; // El tiempo que tarda la bomba en explotar
     public float radioExplosion = 5f; // El radio de la explosión de la bomba
-    public Transform a, b;
+    
     private bool haExplotado = false; // Indica si la bomba ha explotado
     private float tiempoRestante; // Tiempo restante para que la bomba explote
     
@@ -29,7 +29,7 @@ public class Bomba : MonoBehaviour
     void Explode()
     {
         haExplotado = true;
-        //proyectil arriba
+        
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, radioExplosion))
         {
