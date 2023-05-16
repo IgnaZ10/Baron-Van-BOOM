@@ -97,6 +97,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoExplosion: 3
-  radioExplosion: 15
-  a: {fileID: 0}
-  b: {fileID: 0}
+  radioExplosion: 100
