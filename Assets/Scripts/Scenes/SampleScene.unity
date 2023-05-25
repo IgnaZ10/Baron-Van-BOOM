@@ -350,6 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &32294340
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -524,6 +525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &116776407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -710,6 +712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &153534761
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -823,6 +826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &204971766
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1112,6 +1116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &227664675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1290,6 +1295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &247520135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1403,6 +1409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &258229036
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1552,6 +1559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &322775548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1665,6 +1673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &327090042
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1778,6 +1787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &332158495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1896,6 +1906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &365407381
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2009,6 +2020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &383992330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2179,6 +2191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &414747373
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2315,6 +2328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &469682120
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2639,6 +2653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &499750489
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2752,6 +2767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &520009279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2850,6 +2866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &531338600
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2963,6 +2980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &558441294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3096,6 +3114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &606088162
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3209,6 +3228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &608926672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3322,6 +3342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &640350960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3692,6 +3713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &708832101
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3805,6 +3827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &716800953
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3918,6 +3941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &732281643
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4031,6 +4055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &733431282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4144,6 +4169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &739220582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4257,6 +4283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &745292729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4448,6 +4475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &755735123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4561,6 +4589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &937527152
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4812,11 +4841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5054298329858119467, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 218.2
+      value: 306.7
       objectReference: {fileID: 0}
     - target: {fileID: 5054298329858119467, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -36.4
+      value: -53.3
       objectReference: {fileID: 0}
     - target: {fileID: 5054298329858119467, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4933,6 +4962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1026124834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5099,6 +5129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1039453576
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5188,11 +5219,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1974380508625355910, guid: 0e0f9bd215379e74fa54f2288038fbe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 258.9
+      value: 309.6
       objectReference: {fileID: 0}
     - target: {fileID: 1974380508625355910, guid: 0e0f9bd215379e74fa54f2288038fbe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 63.739998
+      value: 40.1
       objectReference: {fileID: 0}
     - target: {fileID: 1974380508625355910, guid: 0e0f9bd215379e74fa54f2288038fbe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5285,6 +5316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1101179776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5403,6 +5435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1106748901
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5516,6 +5549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1107162835
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5629,6 +5663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1107828019
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6016,6 +6051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1200340876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6217,6 +6253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1231704400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6330,6 +6367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1254299457
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6458,8 +6496,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2fb27d7a186f7e438e012f674bb9546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
+  objectToInstantiate: {fileID: 0}
   yOffset: 4.6
+  maxCajas: 3
 --- !u!64 &1280580668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6588,6 +6627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1283498323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6701,6 +6741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1303043063
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7087,6 +7128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1339353238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7200,6 +7242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1355293947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7376,6 +7419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1367118926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7504,6 +7548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1380074870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7695,6 +7740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1396983848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7966,6 +8012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1419180259
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8161,6 +8208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1522607829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8274,6 +8322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1525512938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8387,6 +8436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1526632690
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8500,6 +8550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1530155645
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8636,6 +8687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1531619720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8749,6 +8801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1552028944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8862,6 +8915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1574971719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8975,6 +9029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1593619134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9073,6 +9128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1653250784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9201,6 +9257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1696439529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9314,6 +9371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1741692239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9540,6 +9598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1769365828
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9853,6 +9912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &1847805951
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10157,6 +10217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &2020019641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10285,6 +10346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &2022904320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10614,6 +10676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &2101822664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10941,6 +11004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &2117237359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11054,6 +11118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &2124128315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11167,6 +11232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
+  maxCajas: 10
 --- !u!64 &2141464479
 MeshCollider:
   m_ObjectHideFlags: 0

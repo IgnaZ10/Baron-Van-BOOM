@@ -4,10 +4,10 @@ public class Bomba : MonoBehaviour
 {
     public float tiempoExplosion = 3f; // El tiempo que tarda la bomba en explotar
     public float radioExplosion = 10f; // El radio de la explosión de la bomba
-    
+
     private bool haExplotado = false; // Indica si la bomba ha explotado
     private float tiempoRestante; // Tiempo restante para que la bomba explote
-    
+
     void Start()
     {
         tiempoRestante = tiempoExplosion;
@@ -35,8 +35,10 @@ public class Bomba : MonoBehaviour
 
         for (int explosions = 0; explosions <= 3; explosions++)
         {
-            switch (explosions) {
-                case 0: vectorExplode = Vector3.back;
+            switch (explosions)
+            {
+                case 0:
+                    vectorExplode = Vector3.back;
                     break;
                 case 1:
                     vectorExplode = Vector3.right;
@@ -57,14 +59,14 @@ public class Bomba : MonoBehaviour
                 RaycastHit hit = hits[i];
                 BreakScript ruptura = hit.transform.GetComponent<BreakScript>();
                 if (ruptura)
-                Destroy(ruptura.transform.gameObject, 1f);
+                    Destroy(ruptura.transform.gameObject, 1f);
 
             }
-        
-               Debug.DrawLine(transform.position, vectorExplode * radioExplosion);
+
+            Debug.DrawLine(transform.position, vectorExplode * radioExplosion);
         }
         Destroy(gameObject, 0.5f);
     }
-    
+
 }
 
