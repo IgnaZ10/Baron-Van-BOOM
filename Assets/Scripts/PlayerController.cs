@@ -22,6 +22,15 @@ public class PlayerController : MonoBehaviour
             
             Instantiate(bombPrefab, transform.position, Quaternion.identity);
         }
+
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // Destruye el jugador
+            Destroy(gameObject);
+        }
     }
     /*void Movement()
     {

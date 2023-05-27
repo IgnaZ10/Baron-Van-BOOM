@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuPausa : MonoBehaviour
 {
+    public Transform player;
+
+    [SerializeField] private GameObject GameOver;
+
     [SerializeField] private GameObject botonPausa;
 
     [SerializeField] private GameObject menuPausa;
@@ -23,6 +27,15 @@ public class MenuPausa : MonoBehaviour
                 Pausa();
             }
         }
+        // Verificar si el objeto del jugador no está presente
+        if (player == null)
+        {
+            Time.timeScale = 0f;
+            botonPausa.SetActive(false);
+            GameOver.SetActive(true);
+           
+        }
+
     }
 
     public void Pausa()
@@ -45,7 +58,6 @@ public class MenuPausa : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
     }
 
     public void Cerrar()
@@ -54,4 +66,5 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("MainMenu");
     }
+   
 }
