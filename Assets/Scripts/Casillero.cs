@@ -31,8 +31,14 @@ public class Casillero : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     Vector3 spawnPosition = hit.transform.position + new Vector3(0f, yOffset, 0f);
-                    Instantiate(objectToInstantiate, spawnPosition, Quaternion.identity);
-                    cajasInstanciadas++; // Incrementa el contador de cajas instanciadas
+
+                    // Verificar si hay colisiones en la posición de spawn
+                    Collider[] colliders = Physics.OverlapSphere(spawnPosition, 3.2f);
+                    if (colliders.Length == 0)
+                    {
+                        Instantiate(objectToInstantiate, spawnPosition, Quaternion.identity);
+                        cajasInstanciadas++; // Incrementa el contador de cajas instanciadas
+                    }
                 }
             }
         }

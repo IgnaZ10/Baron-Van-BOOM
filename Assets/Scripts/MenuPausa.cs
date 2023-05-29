@@ -14,6 +14,7 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private GameObject menuPausa;
 
     private bool juegoPausado = false;
+    private bool reinicioSolicitado = false;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -34,6 +35,14 @@ public class MenuPausa : MonoBehaviour
             botonPausa.SetActive(false);
             GameOver.SetActive(true);
            
+        }
+        if (reinicioSolicitado)
+        {
+            if (!juegoPausado)
+            {
+                Reiniciar();
+            }
+            reinicioSolicitado = false;
         }
 
     }
@@ -66,5 +75,9 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("MainMenu");
     }
-   
+    public void SolicitarReinicio()
+    {
+        reinicioSolicitado = true;
+    }
+
 }
