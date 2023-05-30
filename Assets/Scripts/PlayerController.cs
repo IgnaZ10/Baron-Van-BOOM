@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 12f;
     public CharacterController Controller1;
     public GameObject bombPrefab; // Prefab de la bomba
-   
+    public event System.Action OnPlayerDestroyed;
 
 
     private void Update()
@@ -30,6 +30,14 @@ public class PlayerController : MonoBehaviour
         {
             // Destruye el jugador
             Destroy(gameObject);
+        }
+    }
+    void OnDestroy()
+    {
+        // Llamada al evento cuando el jugador es destruido
+        if (OnPlayerDestroyed != null)
+        {
+            OnPlayerDestroyed.Invoke();
         }
     }
     /*void Movement()
