@@ -40,27 +40,6 @@ public class PlayerController : MonoBehaviour
             OnPlayerDestroyed.Invoke();
         }
     }
-    /*void Movement()
-    {
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.position += transform.forward * speed * Time.fixedDeltaTime;
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            transform.position -= transform.forward * speed * Time.fixedDeltaTime;
-        }
-
-        
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.position -= transform.right * speed * Time.fixedDeltaTime;
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += transform.right * speed * Time.fixedDeltaTime;
-        }
-    }*/
 
 }
 

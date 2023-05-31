@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5054298329858119468}
   - component: {fileID: 5054298329858119471}
   - component: {fileID: 8578804958269707386}
+  - component: {fileID: 7415981116929077634}
   m_Layer: 0
   m_Name: Cube 1 1
   m_TagString: Destructible
@@ -127,3 +128,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d07b2b4c4277b4db5dafae8da15d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &7415981116929077634
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054298329858119470}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
