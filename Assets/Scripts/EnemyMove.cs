@@ -48,4 +48,11 @@ public class EnemyMove : MonoBehaviour
         isPlayerDestroyed = true;
         navMeshAgent.enabled = false;
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }

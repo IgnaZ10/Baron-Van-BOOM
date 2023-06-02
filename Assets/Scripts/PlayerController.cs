@@ -24,14 +24,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            // Destruye el jugador
-            Destroy(gameObject);
-        }
-    }
+
     void OnDestroy()
     {
         // Llamada al evento cuando el jugador es destruido
