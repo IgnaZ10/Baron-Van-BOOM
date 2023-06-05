@@ -8,7 +8,15 @@ public class PlayerController : MonoBehaviour
     public CharacterController Controller1;
     public GameObject bombPrefab; // Prefab de la bomba
     public event System.Action OnPlayerDestroyed;
+    public int contBombas;
+    [SerializeField] public int BombasEnPantalla;
+    [SerializeField] public int maxBombas = 3;
 
+    private void Awake()
+    {
+        contBombas = 20;
+        
+    }
 
     private void Update()
     {
@@ -16,11 +24,13 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
         Controller1.Move(move * speed * Time.deltaTime);
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && contBombas > 0 && BombasEnPantalla < maxBombas)
         {
             // Crea una nueva instancia de la bomba en la posición del jugador
             
             Instantiate(bombPrefab, transform.position, Quaternion.identity);
+            contBombas--;
+            BombasEnPantalla++;
         }
 
     }

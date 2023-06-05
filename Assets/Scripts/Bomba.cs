@@ -65,6 +65,11 @@ public class Bomba : MonoBehaviour
 
             Debug.DrawLine(transform.position, vectorExplode * radioExplosion);
         }
+        PlayerController playerController = FindObjectOfType<PlayerController>();
+        if (playerController != null)
+        {
+            playerController.BombasEnPantalla--;
+        }
         Destroy(gameObject, 0.5f);
     }
 

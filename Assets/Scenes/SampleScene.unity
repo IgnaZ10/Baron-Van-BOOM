@@ -10918,6 +10918,9 @@ MonoBehaviour:
   speed: 22
   Controller1: {fileID: 2109798392}
   bombPrefab: {fileID: 307422452920230948, guid: 12baa8d142d9f634c9c913ab7c394b82, type: 3}
+  contBombas: 0
+  BombasEnPantalla: 0
+  maxBombas: 3
 --- !u!65 &2109798388
 BoxCollider:
   m_ObjectHideFlags: 0
