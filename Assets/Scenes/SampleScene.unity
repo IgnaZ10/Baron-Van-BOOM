@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3564478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.745211, y: 11, z: 49.70935}
+  m_LocalPosition: {x: -12, y: 11, z: 49.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1138,8 +1138,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179780833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 103.03, y: 9.524549, z: -102.61}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: 103, y: 9, z: 24}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 84878947}
@@ -7729,7 +7729,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 15
+  m_Speed: 14
   m_Acceleration: 25
   avoidancePriority: 50
   m_AngularSpeed: 20
@@ -7755,6 +7755,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 1068165990}
   goalDestination: {fileID: 2109798385}
+  chasingDistance: 28
+  returnDistance: 30
 --- !u!136 &1068165992
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7843,7 +7845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068165989}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.11, y: 15.319258, z: 36.50001}
+  m_LocalPosition: {x: 71.17, y: 15.319258, z: 36.45}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8718,7 +8720,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188220213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.3, y: 4, z: 6.6}
+  m_LocalPosition: {x: 11.3, y: 4, z: 6}
   m_LocalScale: {x: 13.3, y: 1, z: 13.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12717,8 +12719,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688634901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.1, y: 9.524549, z: 23.7}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: -24, y: 9, z: -103}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 84878947}
@@ -14470,7 +14472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971371821}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.885437, y: 15.319258, z: -83.4}
+  m_LocalPosition: {x: -46.55, y: 15.319258, z: -81.84}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14487,7 +14489,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 15
+  m_Speed: 14
   m_Acceleration: 25
   avoidancePriority: 50
   m_AngularSpeed: 20
@@ -14513,6 +14515,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 1971371828}
   goalDestination: {fileID: 2109798385}
+  chasingDistance: 28
+  returnDistance: 30
 --- !u!1 &1972024680
 GameObject:
   m_ObjectHideFlags: 0
@@ -15630,7 +15634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a927977f48d6b4e848729ca4f379d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 22
+  speed: 15
   Controller1: {fileID: 2109798392}
   bombPrefab: {fileID: 307422452920230948, guid: 12baa8d142d9f634c9c913ab7c394b82, type: 3}
   contBombas: 0
@@ -16320,7 +16324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6841154722995138292, guid: 0cdc3b143cbc9794fbdd151a3bf65c78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.005074
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 6841154722995138292, guid: 0cdc3b143cbc9794fbdd151a3bf65c78, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16328,7 +16332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6841154722995138292, guid: 0cdc3b143cbc9794fbdd151a3bf65c78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.368719
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6841154722995138292, guid: 0cdc3b143cbc9794fbdd151a3bf65c78, type: 3}
       propertyPath: m_LocalRotation.w
