@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        Vector3 gravity = new Vector3(0, Physics.gravity.y, 0);
+        Controller1.Move(gravity * Time.deltaTime);
+
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
