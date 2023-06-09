@@ -6,7 +6,7 @@ public class Casillero : MonoBehaviour
     public float yOffset = 1f; // Desplazamiento vertical
     public int maxCajas = 10; // Límite de cajas
 
-    private static int cajasInstanciadas = 0; // Contador de cajas instanciadas
+    public static int cajasInstanciadas = 0; // Contador de cajas instanciadas
 
     private void OnDisable()
     {
