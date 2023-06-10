@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Casillero : MonoBehaviour
 {
@@ -8,11 +9,14 @@ public class Casillero : MonoBehaviour
 
     public static int cajasInstanciadas = 0; // Contador de cajas instanciadas
 
+    public Text cajasCounterText; // Referencia al objeto de texto asignada en el inspector
+
     private void OnDisable()
     {
         // Reiniciar la cantidad de cajas instanciadas al desactivar el objeto
         cajasInstanciadas = 0;
     }
+
     private void Update()
     {
         // Verificar si el juego está pausado
@@ -20,6 +24,7 @@ public class Casillero : MonoBehaviour
         {
             return; // Salir del método sin hacer nada si el juego está pausado
         }
+
         if (Input.GetMouseButtonDown(0) && cajasInstanciadas < maxCajas)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -38,12 +43,20 @@ public class Casillero : MonoBehaviour
                     {
                         Instantiate(objectToInstantiate, spawnPosition, Quaternion.identity);
                         cajasInstanciadas++; // Incrementa el contador de cajas instanciadas
+
+                        if (cajasCounterText != null)
+                        {
+                            int cajasRestantes = maxCajas - cajasInstanciadas;
+                            cajasCounterText.text = cajasRestantes.ToString();
+                        }
                     }
                 }
             }
         }
     }
 }
+
+
 
 
 

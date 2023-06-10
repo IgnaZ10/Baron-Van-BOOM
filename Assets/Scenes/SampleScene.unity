@@ -310,6 +310,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &32294340
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -557,6 +558,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &70009902
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -671,6 +673,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &74494917
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -818,6 +821,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &116776407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -932,6 +936,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &143359890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1046,6 +1051,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &153534761
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1273,6 +1279,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &204647206
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1387,6 +1394,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &204971766
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1634,6 +1642,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &215571176
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1748,6 +1757,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &227664675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1862,6 +1872,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &247520135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1976,6 +1987,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &249448621
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2090,6 +2102,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &258229036
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2209,6 +2222,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &314432317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2323,6 +2337,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &322775548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2437,6 +2452,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &327090042
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2551,6 +2567,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &332158495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2665,6 +2682,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &333073917
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2827,6 +2845,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &365407381
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3076,6 +3095,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &383992330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3267,6 +3287,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &414747373
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3404,6 +3425,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &469682120
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3651,6 +3673,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &496246342
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3765,6 +3788,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &499750489
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3879,6 +3903,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &520009279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3978,6 +4003,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &531338600
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4092,6 +4118,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &558441294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4265,6 +4292,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &595271547
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4363,7 +4391,7 @@ RectTransform:
   - {fileID: 51839443}
   - {fileID: 2118633694}
   m_Father: {fileID: 1320769826}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4458,6 +4486,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &606088162
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4572,6 +4601,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &608926672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4686,6 +4716,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &640350960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4805,6 +4836,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &665356988
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5004,6 +5036,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &666500955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5230,6 +5263,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &708832101
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5344,6 +5378,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &716800953
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5458,6 +5493,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &730482365
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5572,6 +5608,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &732281643
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5686,6 +5723,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &733431282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5800,6 +5838,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &738257743
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5914,6 +5953,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &739220582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6028,6 +6068,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &745292729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6142,6 +6183,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &750847034
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6256,6 +6298,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &755735123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6370,6 +6413,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &789199527
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6484,6 +6528,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &829020899
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6598,6 +6643,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &848707831
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6712,6 +6758,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &873989348
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6961,6 +7008,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &937527152
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7075,6 +7123,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &945019413
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7273,6 +7322,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &966118271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7387,6 +7437,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &990530912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7464,7 +7515,7 @@ GameObject:
   - component: {fileID: 990699965}
   - component: {fileID: 990699964}
   m_Layer: 5
-  m_Name: Bombas
+  m_Name: BombasContador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7482,13 +7533,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1320769826}
-  m_RootOrder: 0
+  m_Father: {fileID: 1113156972}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 882, y: 464}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 100, y: -80}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990699964
 MonoBehaviour:
@@ -7525,13 +7576,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 84
+    m_Font: {fileID: 12800000, guid: 603a3d7d93df2b149aea5a98b97de72f, type: 3}
+    m_FontSize: 95
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 86
-    m_Alignment: 0
+    m_MinSize: 9
+    m_MaxSize: 95
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -7596,6 +7647,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1026124834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7728,6 +7780,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1039453576
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7997,6 +8050,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1101179776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8111,6 +8165,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1106748901
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8225,6 +8280,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1107162835
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8339,6 +8395,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1107828019
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8403,6 +8460,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107828016}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1113156971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113156972}
+  m_Layer: 0
+  m_Name: 'Contadores '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113156972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113156971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 764.6249, y: 428.61737, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1478226119}
+  - {fileID: 1218714981}
+  - {fileID: 990699963}
+  - {fileID: 1713632746}
+  m_Father: {fileID: 1320769826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1118509536
 GameObject:
   m_ObjectHideFlags: 0
@@ -8588,6 +8680,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1144278701
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8685,7 +8778,7 @@ RectTransform:
   m_Children:
   - {fileID: 1335905917}
   m_Father: {fileID: 1320769826}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -9082,6 +9175,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1200340876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9258,6 +9352,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec97918a3428b314698bb3627bd1d691, type: 3}
+--- !u!1 &1218714980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1218714981}
+  - component: {fileID: 1218714983}
+  - component: {fileID: 1218714982}
+  m_Layer: 0
+  m_Name: CajasImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1218714981
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218714980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1113156972}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -75, y: 20}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1218714982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218714980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c0a977ec50be2a54581bf9c997f4734d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1218714983
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218714980}
+  m_CullTransparentMesh: 1
 --- !u!1 &1231704397
 GameObject:
   m_ObjectHideFlags: 0
@@ -9308,6 +9478,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1231704400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9422,6 +9593,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1253693451
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9536,6 +9708,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1254299457
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9650,6 +9823,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1257421750
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9764,6 +9938,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1283498323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9878,6 +10053,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1303043063
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10051,8 +10227,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 990699963}
-  - {fileID: 1478226119}
+  - {fileID: 1113156972}
   - {fileID: 1152529321}
   - {fileID: 1972024681}
   - {fileID: 599879587}
@@ -10251,6 +10426,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1339353238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10365,6 +10541,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1355293947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10464,6 +10641,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1367118926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10593,6 +10771,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1380074870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10707,6 +10886,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1396983848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10839,6 +11019,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1400924800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11114,6 +11295,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1419180259
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11228,6 +11410,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1471944735
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11303,9 +11486,8 @@ GameObject:
   - component: {fileID: 1478226119}
   - component: {fileID: 1478226122}
   - component: {fileID: 1478226121}
-  - component: {fileID: 1478226120}
   m_Layer: 5
-  m_Name: Cajas
+  m_Name: CajasContador
   m_TagString: Casillero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11323,28 +11505,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1320769826}
-  m_RootOrder: 1
+  m_Father: {fileID: 1113156972}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 747, y: 464}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -72.8, y: -80}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1478226120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478226118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41abb7ad37d8b57458d4695750ba9c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  casillero: {fileID: 558441293}
-  textoContador: {fileID: 1478226121}
 --- !u!114 &1478226121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11366,19 +11534,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 84
+    m_Font: {fileID: 12800000, guid: 603a3d7d93df2b149aea5a98b97de72f, type: 3}
+    m_FontSize: 95
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 86
-    m_Alignment: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 20
+  m_Text: 10
 --- !u!222 &1478226122
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11437,6 +11605,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1480119841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11573,7 +11742,7 @@ RectTransform:
   - {fileID: 206827203}
   - {fileID: 1196843610}
   m_Father: {fileID: 1320769826}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11630,6 +11799,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1522607829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11744,6 +11914,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1525512938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11858,6 +12029,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1526632690
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11972,6 +12144,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1530155645
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12109,6 +12282,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1531619720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12223,6 +12397,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1552028944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12337,6 +12512,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1574971719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12451,6 +12627,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1593619134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12550,6 +12727,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1653250784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12679,6 +12857,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1683239834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12906,6 +13085,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1696439529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13020,6 +13200,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1698394751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13084,6 +13265,82 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698394748}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1713632745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1713632746}
+  - component: {fileID: 1713632748}
+  - component: {fileID: 1713632747}
+  m_Layer: 0
+  m_Name: BombaImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1713632746
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713632745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1113156972}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 108, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1713632747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713632745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f78824482ac21a842bc6ba7e342670d7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1713632748
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713632745}
+  m_CullTransparentMesh: 1
 --- !u!1 &1741692236
 GameObject:
   m_ObjectHideFlags: 0
@@ -13134,6 +13391,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1741692239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13213,7 +13471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1748423229
 Transform:
   m_ObjectHideFlags: 0
@@ -13283,6 +13541,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1765936996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13397,6 +13656,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1769365828
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13659,7 +13919,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1320769826}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847805948
 GameObject:
@@ -13711,6 +13971,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1847805951
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13825,6 +14086,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1885829581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13939,6 +14201,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1935830724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14071,6 +14334,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1945120345
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14185,6 +14449,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1945651947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14299,6 +14564,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1947899612
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14413,6 +14679,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1952747476
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14664,7 +14931,7 @@ RectTransform:
   m_Children:
   - {fileID: 1404734676}
   m_Father: {fileID: 1320769826}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -14759,6 +15026,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &1974554297
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14931,6 +15199,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2016684962
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15030,6 +15299,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2020019641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15159,6 +15429,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2022904320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15406,6 +15677,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2089487484
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15520,6 +15792,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2091799996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15634,6 +15907,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2101822664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15913,6 +16187,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2117237359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16160,6 +16435,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2124128315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16274,6 +16550,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 5054298329858119470, guid: 4b575c17b35931947b09dd4c80e42882, type: 3}
   yOffset: 4.6
   maxCajas: 10
+  cajasCounterText: {fileID: 1478226121}
 --- !u!64 &2141464479
 MeshCollider:
   m_ObjectHideFlags: 0
