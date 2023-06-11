@@ -8,12 +8,21 @@ public class Interruptor : MonoBehaviour
     public bool activo = false;
     public float distanciaActivacion = 2f;
     public GameObject enemy;
+    [SerializeField] private GameObject teclaE;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             Debug.Log("Presiona E para activar el objeto.");
+            teclaE.SetActive(true);
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            teclaE.SetActive(false);
         }
     }
     private void Update()
