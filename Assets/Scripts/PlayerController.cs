@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         contBombas = 20;
-        
+
     }
 
     private void Update()
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && contBombas > 0 && BombasEnPantalla < maxBombas)
         {
             // Crea una nueva instancia de la bomba en la posición del jugador
-            
+
             Instantiate(bombPrefab, transform.position, Quaternion.identity);
             contBombas--;
             BombasEnPantalla++;
