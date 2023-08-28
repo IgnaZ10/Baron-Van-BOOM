@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuInicial : MonoBehaviour
 {
+    [SerializeField] GameObject ViewTutorialPanel;
+    private void Start()
+    {
+        ViewTutorialPanel.SetActive(false);
+    }
     public void Jugar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -18,6 +23,10 @@ public class MenuInicial : MonoBehaviour
     }
     public void VerTutorial()
     {
-
+        SceneManager.LoadScene("Tutorial");
+    }
+    public void InicioJuego()
+    {
+        ViewTutorialPanel.SetActive(true);
     }
 }
