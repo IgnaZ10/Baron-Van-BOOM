@@ -420,7 +420,7 @@ RectTransform:
   m_GameObject: {fileID: 1490086249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191709145}
@@ -563,7 +563,7 @@ MonoBehaviour:
     bombas
   - Recuerda que tienes un numero limitado de bombas y cajas en tu panel superior
     derecho
-  - Debes desactivar a los robots usando sus botones. Buena Suerte!
+  - "Debes desactivar a los robots usando sus botones. \nBuena Suerte!"
   panelTutorial: {fileID: 191709144}
   textTutorial: {fileID: 1490086250}
   tiempoEscritura: 0.03
