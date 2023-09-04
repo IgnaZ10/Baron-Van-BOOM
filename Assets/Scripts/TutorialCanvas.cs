@@ -2,82 +2,47 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class TutorialCanvas : MonoBehaviour
 {
-    [SerializeField] GameObject canvas;
-    [SerializeField] Text text;
-
-    [SerializeField] Button[] buttonList;
-    [SerializeField] List<string> textList;
-
-    int indexActualText = 0;
-
+    [SerializeField, TextArea(4,6)] private string[] LineasTutorial;
+    [SerializeField] private GameObject panelTutorial;
+    [SerializeField] private Text textTutorial;
+    private int LineIndex = 0;
+    public float tiempoEscritura = 0.03f;
     private void Start()
     {
-        if (buttonList.Length > 2)
+        StartCoroutine(ShowLine());
+    }
+    private IEnumerator ShowLine()
+    {
+        textTutorial.text = string.Empty;
+
+        foreach (char ch in LineasTutorial[LineIndex])
         {
-            Debug.LogError("Debes utilizar solo dos botones, el primero sera Preview, el segundo Next");
+            textTutorial.text += ch;
+            yield return new WaitForSeconds(tiempoEscritura);
         }
-        else
+    }
+    private void NextDialogue()
+    {
+        LineIndex++;
+        if (LineIndex < LineasTutorial.Length)
         {
-            ViewActualText(0);
-            ResetButtons();
-
-        }
-    }
-
-    private void ResetButtons()
-    {
-        buttonList[0].onClick.AddListener(Previous);
-        buttonList[1].onClick.AddListener(Next);
-
-        buttonList[0].gameObject.SetActive(false);
-        buttonList[1].gameObject.SetActive(true);
-    }
-    public void ViewTutorial()
-    {
-        canvas.SetActive(!canvas);
-    }
-
-
-    [SerializeField] void Previous()
-    {
-        indexActualText -= 1;
-        if (indexActualText == 1)
-        {
-            buttonList[0].gameObject.SetActive(false);
-            buttonList[1].gameObject.SetActive(true);
-        }
-
-        ViewActualText(indexActualText);
-
-    }
-    [SerializeField] void Next()
-    {
-        indexActualText += 1;
-        if (indexActualText == textList.Count - 1)
-        {
-            buttonList[0].gameObject.SetActive(true);
-            buttonList[1].gameObject.SetActive(false);
+            StartCoroutine(ShowLine());
         }
         else
         {
             SceneManager.LoadScene("Nivel 1");
         }
-
-        ViewActualText(indexActualText);
     }
 
-
-    private void ViewActualText(int index)
+    private void Update()
     {
-        for (int c = 0; c < textList.Count; c++)
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            if (c == index)
-            {
-                text.text = textList[c];
-            }
+            NextDialogue();
         }
     }
 }
