@@ -12,11 +12,22 @@ public class EnemyMove : MonoBehaviour
     private GameObject player;
     private Vector3 initialPosition;
     private bool isPlayerDestroyed = false;
+    private Animation anim;
+
+    public float arrivalDistance = 0.01f; // Distancia mínima al punto inicial antes de activar la animación de estar quieto
+    public float animationSpeedVariation = 0.1f; // Variación de velocidad de animación
+
+     
 
     void Start()
     {
         player = GameObject.FindObjectOfType<PlayerController>().gameObject;
         initialPosition = transform.position;
+        anim = GetComponent<Animation>();
+
+        // Aplicar una pequeña variación de velocidad de animación para evitar la sincronización
+        float randomSpeedFactor = Random.Range(1f - animationSpeedVariation, 1f + animationSpeedVariation);
+        anim[anim.clip.name].speed = randomSpeedFactor;
     }
 
     void Update()
@@ -29,10 +40,20 @@ public class EnemyMove : MonoBehaviour
             if (distanceToPlayer <= chasingDistance)
             {
                 navMeshAgent.destination = player.transform.position;
+
+                // Activa la animación de persecución.
+                anim.Play("Armature|Persecucion");
             }
             else if (distanceToInitialPosition > returnDistance)
             {
                 navMeshAgent.destination = initialPosition;
+
+             
+            }
+            else if (distanceToInitialPosition <= arrivalDistance)
+            {
+                // Activa la animación de estar quieto.
+                anim.Play("Armature|EnGuardia");
             }
         }
     }
