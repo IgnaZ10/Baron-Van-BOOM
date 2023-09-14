@@ -1,8 +1,17 @@
 fileFormatVersion: 2
-guid: 4f2213a472d3c2b42a8208b6c41cb346
+guid: f621defeada3b09448833287de3396b1
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -9150317476266788921
+    second: EnGuardia
+  - first:
+      74: -2015969755171933742
+    second: Armature|EnGuardia
+  - first:
+      74: -8567228144332447875
+    second: Armature|Persecucion
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -91,11 +100,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

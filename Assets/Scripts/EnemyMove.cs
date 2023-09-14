@@ -13,16 +13,18 @@ public class EnemyMove : MonoBehaviour
     private Vector3 initialPosition;
     private bool isPlayerDestroyed = false;
     private Animation anim;
-
     public float arrivalDistance = 0.01f; // Distancia mínima al punto inicial antes de activar la animación de estar quieto
     public float animationSpeedVariation = 0.1f; // Variación de velocidad de animación
 
-     
-
+    private Quaternion initialRotation;
+    private bool isRotatingToInitialRotation = false;
+    private float rotationStartTime;
+    private float rotationDuration = 10f;
     void Start()
     {
         player = GameObject.FindObjectOfType<PlayerController>().gameObject;
         initialPosition = transform.position;
+        initialRotation = transform.rotation;
         anim = GetComponent<Animation>();
 
         // Aplicar una pequeña variación de velocidad de animación para evitar la sincronización
@@ -43,20 +45,32 @@ public class EnemyMove : MonoBehaviour
 
                 // Activa la animación de persecución.
                 anim.Play("Armature|Persecucion");
+                initialRotation = transform.rotation;
             }
             else if (distanceToInitialPosition > returnDistance)
             {
                 navMeshAgent.destination = initialPosition;
 
-             
             }
             else if (distanceToInitialPosition <= arrivalDistance)
             {
                 // Activa la animación de estar quieto.
                 anim.Play("Armature|EnGuardia");
+
+                // Inicia la rotación gradual hacia la rotación inicial
+                if (!isRotatingToInitialRotation)
+                {
+                    rotationStartTime = Time.time;
+                    isRotatingToInitialRotation = true;
+                }
+
+                // Calcula la rotación gradual
+                float t = (Time.time - rotationStartTime) / rotationDuration;
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, initialRotation, t * 1.2f / rotationDuration);
             }
         }
     }
+
 
     void OnDestroy()
     {
