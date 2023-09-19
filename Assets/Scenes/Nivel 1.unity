@@ -4625,7 +4625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561175558}
   m_LocalRotation: {x: 0.3810932, y: 0.005135353, z: 0.002416389, w: 0.9245193}
-  m_LocalPosition: {x: 9.04181, y: 146.58293, z: -92.72829}
+  m_LocalPosition: {x: 9.041806, y: 146.58293, z: -92.72829}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7689,7 +7689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.3810932, y: 0.005135353, z: 0.002416389, w: 0.9245193}
-  m_LocalPosition: {x: 9.04181, y: 146.58293, z: -92.72829}
+  m_LocalPosition: {x: 9.041806, y: 146.58293, z: -92.72829}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24591,13 +24591,28 @@ GameObject:
   - component: {fileID: 4967359395389751990}
   - component: {fileID: 3033161959399249612}
   - component: {fileID: 406745840}
+  - component: {fileID: 6948123188821793897}
   m_Layer: 0
   m_Name: Caja irrompible
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6948123188821793897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6948123188821793896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  renderer: {fileID: 3033161959399249612}
 --- !u!1 &6966919985221046737
 GameObject:
   m_ObjectHideFlags: 0
