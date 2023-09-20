@@ -24640,8 +24640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalColor: {r: 0, g: 0, b: 0, a: 0}
-  renderer: {fileID: 0}
+  startMaterial: {fileID: -3846018093981099296, guid: f1a25e9b19c2277428d641b6118dcfac, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &6966919985221046737
 GameObject:
   m_ObjectHideFlags: 0
