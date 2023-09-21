@@ -30,7 +30,12 @@ public class Casillero : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit))
+            // Definir una máscara de capa para ignorar la capa "Unbreakable"
+            int layerMask = 1 << LayerMask.NameToLayer("Unbreakable");
+            // Invertir la máscara para que todo excepto la capa "Unbreakable" sea seleccionado
+            layerMask = ~layerMask;
+
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
                 // Comprueba si el objeto clickeado es el que tiene este script
                 if (hit.collider.gameObject == gameObject)

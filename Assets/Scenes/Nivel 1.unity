@@ -27023,9 +27023,10 @@ GameObject:
   - component: {fileID: 7741611780203920838}
   - component: {fileID: 7578589394699944727}
   - component: {fileID: 1540565897}
-  m_Layer: 0
+  - component: {fileID: 7741611780203920839}
+  m_Layer: 7
   m_Name: Caja irrompible.012
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27307,9 +27308,10 @@ GameObject:
   - component: {fileID: 7897048480654443468}
   - component: {fileID: 3211377272514483227}
   - component: {fileID: 1170318561}
-  m_Layer: 0
+  - component: {fileID: 8636204698678464264}
+  m_Layer: 7
   m_Name: Caja irrompible.020
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27424,9 +27426,10 @@ GameObject:
   - component: {fileID: 3860476371789683846}
   - component: {fileID: 6036692050589870408}
   - component: {fileID: 260277000}
-  m_Layer: 0
+  - component: {fileID: 6036692050589870409}
+  m_Layer: 7
   m_Name: Caja irrompible.006
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27857,9 +27860,10 @@ GameObject:
   - component: {fileID: 1719562209411233055}
   - component: {fileID: 1854454764252750163}
   - component: {fileID: 443991903}
-  m_Layer: 0
+  - component: {fileID: 5167967717752571536}
+  m_Layer: 7
   m_Name: Caja irrompible.019
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29549,9 +29553,10 @@ GameObject:
   - component: {fileID: 4092098262781167463}
   - component: {fileID: 7393508415413986590}
   - component: {fileID: 1021876903}
-  m_Layer: 0
+  - component: {fileID: 7393508415413986591}
+  m_Layer: 7
   m_Name: Caja irrompible.002
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30512,9 +30517,10 @@ GameObject:
   - component: {fileID: 4638642049389143910}
   - component: {fileID: 2500608294875189343}
   - component: {fileID: 559730346}
-  m_Layer: 0
+  - component: {fileID: 4638642049389143911}
+  m_Layer: 7
   m_Name: Caja irrompible.003
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30630,9 +30636,10 @@ GameObject:
   - component: {fileID: 724600989714939271}
   - component: {fileID: 7548310469569460516}
   - component: {fileID: 794867087}
-  m_Layer: 0
+  - component: {fileID: 7548310469569460517}
+  m_Layer: 7
   m_Name: Caja irrompible.001
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30649,9 +30656,10 @@ GameObject:
   - component: {fileID: 6061853566251229913}
   - component: {fileID: 1405619175081430643}
   - component: {fileID: 358855138}
-  m_Layer: 0
+  - component: {fileID: 6061853566251229914}
+  m_Layer: 7
   m_Name: Caja irrompible.023
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31076,9 +31084,10 @@ GameObject:
   - component: {fileID: 3712971303702013926}
   - component: {fileID: 3874370348042273901}
   - component: {fileID: 2008881822}
-  m_Layer: 0
+  - component: {fileID: 4326950015396510935}
+  m_Layer: 7
   m_Name: Caja irrompible.011
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31477,9 +31486,10 @@ GameObject:
   - component: {fileID: 5467899203759146435}
   - component: {fileID: 7614442692625940021}
   - component: {fileID: 397675430}
-  m_Layer: 0
+  - component: {fileID: 7614442692625940022}
+  m_Layer: 7
   m_Name: Caja irrompible.004
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31767,6 +31777,20 @@ Transform:
   m_Father: {fileID: 1739340814}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4326950015396510935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3867732382410139897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &4335978882527961179
 GameObject:
   m_ObjectHideFlags: 0
@@ -31779,9 +31803,10 @@ GameObject:
   - component: {fileID: 7587436672681731806}
   - component: {fileID: 3592420755877070230}
   - component: {fileID: 1731823707}
-  m_Layer: 0
+  - component: {fileID: 7587436672681731807}
+  m_Layer: 7
   m_Name: Caja irrompible.022
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32167,6 +32192,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3305462175311032574}
   m_Mesh: {fileID: 7276723828776441142, guid: f1a25e9b19c2277428d641b6118dcfac, type: 3}
+--- !u!114 &4638642049389143911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305462175311032574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!4 &4643470871359314782
 Transform:
   m_ObjectHideFlags: 0
@@ -32300,9 +32339,10 @@ GameObject:
   - component: {fileID: 2103819398530671648}
   - component: {fileID: 3588258569012473752}
   - component: {fileID: 441811301}
-  m_Layer: 0
+  - component: {fileID: 5496321983193886855}
+  m_Layer: 7
   m_Name: Caja irrompible.008
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32639,9 +32679,10 @@ GameObject:
   - component: {fileID: 3226020262516137021}
   - component: {fileID: 8191754064120682305}
   - component: {fileID: 1561162223}
-  m_Layer: 0
+  - component: {fileID: 8191754064120682306}
+  m_Layer: 7
   m_Name: Caja irrompible.013
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32661,6 +32702,20 @@ Transform:
   m_Father: {fileID: 1739340814}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5167967717752571536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218518509496566156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &5185597290613498775
 GameObject:
   m_ObjectHideFlags: 0
@@ -32673,9 +32728,10 @@ GameObject:
   - component: {fileID: 3694029505299176944}
   - component: {fileID: 6422896486816309724}
   - component: {fileID: 1856798935}
-  m_Layer: 0
+  - component: {fileID: 8188403213763608454}
+  m_Layer: 7
   m_Name: Caja irrompible.010
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32932,6 +32988,20 @@ Transform:
   m_Father: {fileID: 1739340814}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5496321983193886855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782030030313138449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &5501789015416105906
 GameObject:
   m_ObjectHideFlags: 0
@@ -33371,6 +33441,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6036692050589870409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803025885991718350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!137 &6039528233424842587
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -33445,6 +33529,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3401376302335588916}
   m_Mesh: {fileID: -6426724370950246210, guid: f1a25e9b19c2277428d641b6118dcfac, type: 3}
+--- !u!114 &6061853566251229914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3401376302335588916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!4 &6080764558931215112
 Transform:
   m_ObjectHideFlags: 0
@@ -33782,9 +33880,10 @@ GameObject:
   - component: {fileID: 6853310144277942220}
   - component: {fileID: 4534985734728795891}
   - component: {fileID: 1477969654}
-  m_Layer: 0
+  - component: {fileID: 6853310144277942221}
+  m_Layer: 7
   m_Name: Caja irrompible.009
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34109,6 +34208,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6567960380349044972}
   m_Mesh: {fileID: 7386376575715556420, guid: f1a25e9b19c2277428d641b6118dcfac, type: 3}
+--- !u!114 &6853310144277942221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6567960380349044972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!4 &6871504222851971913
 Transform:
   m_ObjectHideFlags: 0
@@ -34251,7 +34364,7 @@ GameObject:
   - component: {fileID: 3033161959399249612}
   - component: {fileID: 406745840}
   - component: {fileID: 6948123188821793897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Caja irrompible
   m_TagString: Unbreakable
   m_Icon: {fileID: 0}
@@ -34784,6 +34897,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7393508415413986591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369435099502067892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!23 &7416691524166493310
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34838,13 +34965,28 @@ GameObject:
   - component: {fileID: 3492174162472950904}
   - component: {fileID: 1381245350015303409}
   - component: {fileID: 94572881}
-  m_Layer: 0
+  - component: {fileID: 7527864026034136142}
+  m_Layer: 7
   m_Name: Caja irrompible.007
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7527864026034136142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7527864026034136141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &7533120379643644965
 GameObject:
   m_ObjectHideFlags: 0
@@ -34921,6 +35063,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7548310469569460517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385651215192531086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!23 &7578589394699944727
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34971,6 +35127,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4335978882527961179}
   m_Mesh: {fileID: -1141985769542234124, guid: f1a25e9b19c2277428d641b6118dcfac, type: 3}
+--- !u!114 &7587436672681731807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4335978882527961179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!33 &7606442907551496487
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -35021,6 +35191,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7614442692625940022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059455128775323212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &7623545440706740530
 GameObject:
   m_ObjectHideFlags: 0
@@ -35063,6 +35247,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318877039052933507}
   m_Mesh: {fileID: 2548112023778825760, guid: f1a25e9b19c2277428d641b6118dcfac, type: 3}
+--- !u!114 &7741611780203920839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318877039052933507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!4 &7745585758515386559
 Transform:
   m_ObjectHideFlags: 0
@@ -35470,6 +35668,20 @@ Transform:
   m_Father: {fileID: 1739340814}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8188403213763608454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185597290613498775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!23 &8191754064120682305
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35512,6 +35724,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8191754064120682306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123421808917618738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &8199185342068783791
 GameObject:
   m_ObjectHideFlags: 0
@@ -35688,13 +35914,28 @@ GameObject:
   - component: {fileID: 6031118374316051175}
   - component: {fileID: 46118769311397205}
   - component: {fileID: 303208772}
-  m_Layer: 0
+  - component: {fileID: 8394323429015504853}
+  m_Layer: 7
   m_Name: Caja irrompible.018
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8394323429015504853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8394323429015504852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!33 &8401952775252606095
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -36088,6 +36329,20 @@ Transform:
   m_Father: {fileID: 1739340814}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8636204698678464264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726734061654150528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!23 &8645540883904957404
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36142,13 +36397,28 @@ GameObject:
   - component: {fileID: 2815561516293489373}
   - component: {fileID: 1795884454772883632}
   - component: {fileID: 969060379}
-  m_Layer: 0
+  - component: {fileID: 8681747234059331011}
+  m_Layer: 7
   m_Name: Caja irrompible.016
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8681747234059331011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8681747234059331010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &8686757968834990450
 GameObject:
   m_ObjectHideFlags: 0
@@ -36161,13 +36431,28 @@ GameObject:
   - component: {fileID: 6903571296388699019}
   - component: {fileID: 95001859119202173}
   - component: {fileID: 1911360676}
-  m_Layer: 0
+  - component: {fileID: 8686757968834990451}
+  m_Layer: 7
   m_Name: Caja irrompible.014
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8686757968834990451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8686757968834990450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db8714bb4f72c40bee4d9a5285f90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMaterial: {fileID: -3846018093981099296, guid: 62760e3972f59eb418a2e9a8b62a7873, type: 3}
+  hoverMaterial: {fileID: 2100000, guid: 65da2c4f04297ef41b2b57c93818c356, type: 2}
 --- !u!1 &8700725329620585179
 GameObject:
   m_ObjectHideFlags: 0
