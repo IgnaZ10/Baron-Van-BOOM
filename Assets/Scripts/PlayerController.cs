@@ -12,10 +12,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public int BombasEnPantalla;
     [SerializeField] public int maxBombas = 3;
 
+    public Animation anim;
+
     private void Awake()
     {
         contBombas = 20;
-
+        anim = GetComponent<Animation>();
     }
 
     private void Update()
@@ -27,6 +29,7 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
         Controller1.Move(move * speed * Time.deltaTime);
+
         if (Input.GetKeyDown(KeyCode.Space) && contBombas > 0 && BombasEnPantalla < maxBombas)
         {
             // Crea una nueva instancia de la bomba en la posición del jugador
@@ -35,7 +38,18 @@ public class PlayerController : MonoBehaviour
             contBombas--;
             BombasEnPantalla++;
         }
+       
 
+
+        if (x != 0f || z != 0f)
+        {
+            anim.Play("Caminar");
+        }
+        else
+        {
+            anim.Play("Quieto");
+        }
+     
     }
 
     void OnDestroy()
