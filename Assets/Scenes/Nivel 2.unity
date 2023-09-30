@@ -20876,9 +20876,9 @@ GameObject:
   - component: {fileID: 440377450028216768}
   - component: {fileID: 8600200955945606559}
   - component: {fileID: 8600200955945606560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pared 1.005
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21508,9 +21508,9 @@ GameObject:
   - component: {fileID: 2844921685761441578}
   - component: {fileID: 9158192352180595120}
   - component: {fileID: 9158192352180595121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pared 1.004
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22051,9 +22051,9 @@ GameObject:
   - component: {fileID: 3202348471601832772}
   - component: {fileID: 3202348471601832773}
   - component: {fileID: 3202348471601832774}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pared Gris 2
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22568,9 +22568,9 @@ GameObject:
   - component: {fileID: 2757441353823265266}
   - component: {fileID: 7622801406795835320}
   - component: {fileID: 7622801406795835321}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pared 1.007
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27469,7 +27469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509741811158413066}
   m_LocalRotation: {x: -0.5000001, y: 0.49999988, z: 0.4999999, w: 0.5000001}
-  m_LocalPosition: {x: 6.045092, y: 12.991379, z: -24.93147}
+  m_LocalPosition: {x: 6.14, y: 12.991379, z: -24.9}
   m_LocalScale: {x: 5565.6665, y: 170, z: 1500}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29964,9 +29964,9 @@ GameObject:
   - component: {fileID: 6445883654657628887}
   - component: {fileID: 7642692968487527459}
   - component: {fileID: 7642692968487527460}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pared Gris
-  m_TagString: Untagged
+  m_TagString: Unbreakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
