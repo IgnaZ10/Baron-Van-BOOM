@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     public int contBombas;
     [SerializeField] public int BombasEnPantalla;
     [SerializeField] public int maxBombas = 3;
-
     public Animation anim;
 
     private void Awake()
@@ -32,13 +31,20 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && contBombas > 0 && BombasEnPantalla < maxBombas)
         {
-            // Crea una nueva instancia de la bomba en la posición del jugador
+            // Obtén la posición actual del jugador
+            Vector3 jugadorPosicion = transform.position;
 
-            Instantiate(bombPrefab, transform.position, Quaternion.identity);
+            // Añade un desplazamiento vertical a la posición del jugador
+            jugadorPosicion.y += 3.4f; // Puedes ajustar el valor según tu preferencia
+
+            // Crea una nueva instancia de la bomba en la posición ajustada
+            Instantiate(bombPrefab, jugadorPosicion, Quaternion.identity);
+
             contBombas--;
             BombasEnPantalla++;
         }
-       
+
+
 
 
         if (x != 0f || z != 0f)
