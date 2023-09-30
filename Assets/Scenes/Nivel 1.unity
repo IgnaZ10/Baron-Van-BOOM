@@ -4552,7 +4552,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561175558}
   m_LocalRotation: {x: 0.37460652, y: -0, z: -0, w: 0.92718387}
-  m_LocalPosition: {x: 8.515432, y: 107.72876, z: -47.12945}
+  m_LocalPosition: {x: 8.51543, y: 107.72876, z: -47.12945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7585,7 +7585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.37460652, y: 0, z: 0, w: 0.92718387}
-  m_LocalPosition: {x: 8.515432, y: 107.72876, z: -47.12945}
+  m_LocalPosition: {x: 8.51543, y: 107.72876, z: -47.12945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10590,7 +10590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b497bce812d8a7f418b301bb23809e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2109798391}
+  player: {fileID: 76359227460158694}
   GameOver: {fileID: 599879586}
   botonPausa: {fileID: 1259904450}
   menuPausa: {fileID: 1972024680}
@@ -27334,6 +27334,8 @@ GameObject:
   - component: {fileID: 1755847028601278504}
   - component: {fileID: 1755847028601278506}
   - component: {fileID: 1755847028601278505}
+  - component: {fileID: 1755847028601278509}
+  - component: {fileID: 1755847028601278510}
   m_Layer: 0
   m_Name: PlayerCientifico
   m_TagString: Player
@@ -28936,10 +28938,35 @@ BoxCollider:
   m_GameObject: {fileID: 739884449288052316}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 15, z: 4}
+  m_Size: {x: 6, y: 15, z: 6}
   m_Center: {x: 0, y: 7.52, z: 0}
+--- !u!114 &1755847028601278509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739884449288052316}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0464112c645f5469cf4d5d238a7bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+--- !u!114 &1755847028601278510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739884449288052316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d07b2b4c4277b4db5dafae8da15d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1756277154694264621
 Transform:
   m_ObjectHideFlags: 0
