@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 89f45ca05c00e9e4985e0998840dbdae
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Neptune Lander
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f42b2993d0759dd498a74fccdc4e4091, type: 3}
+  - {fileID: 12800000, guid: 732328419636c5e4c8b5bbaefd95ba85, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
