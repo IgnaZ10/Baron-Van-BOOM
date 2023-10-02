@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        contBombas = 20;
+        contBombas = 12;
         anim = GetComponent<Animation>();
     }
 
