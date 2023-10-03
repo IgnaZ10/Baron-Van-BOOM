@@ -8,19 +8,16 @@ public class PlayerController : MonoBehaviour
     public CharacterController Controller1;
     public GameObject bombPrefab; // Prefab de la bomba
     public event System.Action OnPlayerDestroyed;
-    public int contBombas;
+    [Range(0,12)]
+    [SerializeField] public int contBombas;
     [SerializeField] public int BombasEnPantalla;
     [SerializeField] public int maxBombas = 3;
     public Animation anim;
-
-    private void Awake()
-    {
-        contBombas = 12;
-        anim = GetComponent<Animation>();
-    }
+    Quaternion rotacion;
 
     private void Update()
     {
+        
         Vector3 gravity = new Vector3(0, Physics.gravity.y, 0);
         Controller1.Move(gravity * Time.deltaTime);
 
@@ -43,9 +40,27 @@ public class PlayerController : MonoBehaviour
             contBombas--;
             BombasEnPantalla++;
         }
-
-
-
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+           
+            rotacion = Quaternion.Euler(0f, 90f, 0f);
+            anim.gameObject.transform.rotation = rotacion;
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            rotacion = Quaternion.Euler(0f, -90f, 0f);
+            anim.gameObject.transform.rotation = rotacion;
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            rotacion = Quaternion.Euler(0f, 0f, 0f);
+            anim.gameObject.transform.rotation = rotacion;
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            rotacion = Quaternion.Euler(0f, 180f, 0f);
+            anim.gameObject.transform.rotation = rotacion;
+        }
 
         if (x != 0f || z != 0f)
         {
