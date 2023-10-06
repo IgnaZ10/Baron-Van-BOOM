@@ -2056,8 +2056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 508fa3d52c3e1c74c8873e30f6f78d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botonPausa: {fileID: 0}
-  panelVictoria: {fileID: 0}
+  botonPausa: {fileID: 1080731426}
+  panelVictoria: {fileID: 1447879985}
 --- !u!1 &429384836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4590,7 +4590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objetoParaActivarODesactivar: {fileID: 109801225}
-  teclaE: {fileID: 0}
+  teclaE: {fileID: 1271463462}
 --- !u!1 &899295858
 GameObject:
   m_ObjectHideFlags: 0
@@ -8238,7 +8238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   Controller1: {fileID: 1446123981}
-  bombPrefab: {fileID: 0}
+  bombPrefab: {fileID: 919132147986916224}
   contBombas: 12
   BombasEnPantalla: 0
   maxBombas: 3
@@ -14181,7 +14181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objetoParaActivarODesactivar: {fileID: 304624645}
-  teclaE: {fileID: 0}
+  teclaE: {fileID: 1271463462}
 --- !u!65 &1675124960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25585,7 +25585,7 @@ MonoBehaviour:
   activo: 0
   distanciaActivacion: 10
   enemy: {fileID: 5746870168400813669}
-  teclaE: {fileID: 0}
+  teclaE: {fileID: 1271463462}
 --- !u!65 &3312155514217263753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27620,7 +27620,7 @@ MonoBehaviour:
   activo: 0
   distanciaActivacion: 10
   enemy: {fileID: 8068724403940185358}
-  teclaE: {fileID: 0}
+  teclaE: {fileID: 1271463462}
 --- !u!65 &5264956327942472661
 BoxCollider:
   m_ObjectHideFlags: 0

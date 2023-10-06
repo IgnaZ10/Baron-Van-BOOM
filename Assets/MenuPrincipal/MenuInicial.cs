@@ -10,10 +10,9 @@ public class MenuInicial : MonoBehaviour
     {
         ViewTutorialPanel.SetActive(false);
     }
-    public void Jugar()
+    public void Jugar(string Nivel1)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        
+        SceneManager.LoadScene(Nivel1);
     }
 
     public void Salir()
