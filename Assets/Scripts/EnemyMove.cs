@@ -20,6 +20,11 @@ public class EnemyMove : MonoBehaviour
     private bool isRotatingToInitialRotation = false;
     private float rotationStartTime;
     private float rotationDuration = 10f;
+
+    public AudioSource audiosource;
+    public AudioClip muerte;
+    public AudioSource audiosourceRobot;
+    public AudioClip robot;
     void Start()
     {
         player = GameObject.FindObjectOfType<PlayerController>().gameObject;
@@ -98,6 +103,7 @@ public class EnemyMove : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            audiosource.PlayOneShot(muerte);
             Destroy(collision.gameObject);
         }
     }

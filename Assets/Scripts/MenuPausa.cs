@@ -13,21 +13,12 @@ public class MenuPausa : MonoBehaviour
 
     [SerializeField] private GameObject menuPausa;
 
+    [SerializeField] private GameObject menuOpciones;
+
     private bool juegoPausado = false;
     private bool reinicioSolicitado = false;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (juegoPausado)
-            {
-                Reanudar();
-            }
-            else
-            {
-                Pausa();
-            }
-        }
         // Verificar si el objeto del jugador no está presente
         if (player == null)
         {
@@ -60,6 +51,16 @@ public class MenuPausa : MonoBehaviour
         juegoPausado = false;
         Time.timeScale = 1f;
         botonPausa.SetActive(true);
+        menuPausa.SetActive(false);
+    }
+    public void BackOpciones()
+    {
+        menuOpciones.SetActive(false);
+        menuPausa.SetActive(true);
+    }
+    public void Opciones()
+    {
+        menuOpciones.SetActive(true);
         menuPausa.SetActive(false);
     }
 

@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public Animation anim;
     Quaternion rotacion;
 
+
     private void Update()
     {
         
