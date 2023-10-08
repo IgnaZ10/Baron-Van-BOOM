@@ -15,6 +15,9 @@ public class MenuPausa : MonoBehaviour
 
     [SerializeField] private GameObject menuOpciones;
 
+    public AudioSource audioSource;
+    public AudioClip sonido;
+
     private bool juegoPausado = false;
     private bool reinicioSolicitado = false;
     private void Update()
@@ -40,6 +43,7 @@ public class MenuPausa : MonoBehaviour
 
     public void Pausa()
     {
+        audioSource.PlayOneShot(sonido);
         juegoPausado = true;
         Time.timeScale = 0f;
         botonPausa.SetActive(false);
@@ -48,6 +52,7 @@ public class MenuPausa : MonoBehaviour
 
     public void Reanudar()
     {
+        audioSource.PlayOneShot(sonido);
         juegoPausado = false;
         Time.timeScale = 1f;
         botonPausa.SetActive(true);
@@ -55,11 +60,13 @@ public class MenuPausa : MonoBehaviour
     }
     public void BackOpciones()
     {
+        audioSource.PlayOneShot(sonido);
         menuOpciones.SetActive(false);
         menuPausa.SetActive(true);
     }
     public void Opciones()
     {
+        audioSource.PlayOneShot(sonido);
         menuOpciones.SetActive(true);
         menuPausa.SetActive(false);
     }

@@ -9,13 +9,14 @@ public class MenuInicial : MonoBehaviour
     [SerializeField] GameObject ViewTutorialPanel;
     public AudioSource audioSource;
     public AudioClip sonido;
+    [SerializeField] private GameObject menuOpciones;
+    [SerializeField] private GameObject menuPrincipal;
     private void Start()
     {
         ViewTutorialPanel.SetActive(false);
     }
     public void Jugar(string Nivel1)
     {
-        audioSource.PlayOneShot(sonido);
         SceneManager.LoadScene(Nivel1);
     }
 
@@ -26,9 +27,21 @@ public class MenuInicial : MonoBehaviour
         Application.Quit();
 
     }
-    public void VerTutorial()
+    public void Opciones()
     {
         audioSource.PlayOneShot(sonido);
+        menuOpciones.SetActive(true);
+        menuPrincipal.SetActive(false);
+    }
+    public void volverOpciones()
+    {
+        audioSource.PlayOneShot(sonido);
+        menuOpciones.SetActive(false);
+        menuPrincipal.SetActive(true);
+    }
+    public void VerTutorial()
+    {
+        
         SceneManager.LoadScene("Tutorial");
     }
     public void InicioJuego()
@@ -36,8 +49,4 @@ public class MenuInicial : MonoBehaviour
         audioSource.PlayOneShot(sonido);
         ViewTutorialPanel.SetActive(true);
     }
-    public void VerOpciones()
-    {
-        audioSource.PlayOneShot(sonido);
-    }  
 }

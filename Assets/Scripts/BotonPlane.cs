@@ -8,6 +8,9 @@ public class BotonPlane : MonoBehaviour
     private bool activado = false; // Variable para controlar el estado del interruptor
     private bool cercaDelInterruptor = false; // Variable para controlar la proximidad del jugador
     [SerializeField] private GameObject teclaE;
+
+    public AudioSource audioSource;
+    public AudioClip sonidoBoton;
     private void OnTriggerEnter(Collider other)
     {
         // Comprueba si el objeto que colisiona con el interruptor es el jugador
@@ -33,6 +36,7 @@ public class BotonPlane : MonoBehaviour
         // Comprueba si el jugador está cerca del interruptor y ha presionado la tecla "E"
         if (cercaDelInterruptor && Input.GetKeyDown(KeyCode.E))
         {
+            audioSource.PlayOneShot(sonidoBoton);
             // Cambia el estado del interruptor y activa o desactiva el objeto
             activado = !activado;
 

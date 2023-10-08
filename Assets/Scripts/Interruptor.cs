@@ -10,6 +10,9 @@ public class Interruptor : MonoBehaviour
     public GameObject enemy;
     [SerializeField] private GameObject teclaE;
 
+    public AudioSource audioSource;
+    public AudioClip sonidoBoton;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -30,6 +33,7 @@ public class Interruptor : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+
             // Obtener la posición del jugador
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             Vector3 playerPosition = player.transform.position;
@@ -43,6 +47,7 @@ public class Interruptor : MonoBehaviour
             // Verificar si el jugador está lo suficientemente cerca
             if (distancia <= distanciaActivacion)
             {
+                audioSource.PlayOneShot(sonidoBoton);
                 activo = true;
                 Debug.Log("El objeto ahora está activo.");
 
@@ -54,5 +59,6 @@ public class Interruptor : MonoBehaviour
         }
     }
 }
+
 
 
