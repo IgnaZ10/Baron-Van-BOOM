@@ -15,7 +15,7 @@ public class EnemyMove : MonoBehaviour
     private Animation anim;
     public float arrivalDistance = 0.01f; // Distancia mínima al punto inicial antes de activar la animación de estar quieto
     public float animationSpeedVariation = 0.1f; // Variación de velocidad de animación
-
+    
     private Quaternion initialRotation;
     private bool isRotatingToInitialRotation = false;
     private float rotationStartTime;

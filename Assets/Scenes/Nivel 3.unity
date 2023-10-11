@@ -3917,6 +3917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 364332097}
   - component: {fileID: 364332098}
+  - component: {fileID: 364332099}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
@@ -3957,6 +3958,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botonPausa: {fileID: 1710657703}
   panelVictoria: {fileID: 873801089}
+--- !u!114 &364332099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364332096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18e5168ea4229c4ca0cab2bb7ae328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemPrefab: {fileID: 5218082832565535019, guid: 9843766bea5693c42b13de9596c37f87, type: 3}
+  particleSystemLifetime: 2
 --- !u!1 &365407378
 GameObject:
   m_ObjectHideFlags: 0
@@ -5240,6 +5255,7 @@ GameObject:
   - component: {fileID: 442751249}
   - component: {fileID: 442751248}
   - component: {fileID: 442751253}
+  - component: {fileID: 442751254}
   m_Layer: 0
   m_Name: Enemy 3
   m_TagString: Untagged
@@ -5468,6 +5484,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &442751254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442751246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18e5168ea4229c4ca0cab2bb7ae328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemPrefab: {fileID: 5218082832565535019, guid: 9843766bea5693c42b13de9596c37f87, type: 3}
+  particleSystemLifetime: 2
 --- !u!1 &443359247
 GameObject:
   m_ObjectHideFlags: 0
@@ -9283,6 +9313,7 @@ GameObject:
   - component: {fileID: 767443011}
   - component: {fileID: 767443010}
   - component: {fileID: 767443016}
+  - component: {fileID: 767443017}
   m_Layer: 0
   m_Name: Enemy 4
   m_TagString: Untagged
@@ -9511,6 +9542,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &767443017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767443009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18e5168ea4229c4ca0cab2bb7ae328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemPrefab: {fileID: 5218082832565535019, guid: 9843766bea5693c42b13de9596c37f87, type: 3}
+  particleSystemLifetime: 2
 --- !u!1 &776143208
 GameObject:
   m_ObjectHideFlags: 0
@@ -34782,6 +34827,7 @@ GameObject:
   - component: {fileID: 5746870168400813671}
   - component: {fileID: 5746870168400813670}
   - component: {fileID: 5746870168400813675}
+  - component: {fileID: 5746870168400813676}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -34976,6 +35022,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5746870168400813676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5746870168400813669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18e5168ea4229c4ca0cab2bb7ae328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemPrefab: {fileID: 5218082832565535019, guid: 9843766bea5693c42b13de9596c37f87, type: 3}
+  particleSystemLifetime: 2
 --- !u!1 &5795033764185812957
 GameObject:
   m_ObjectHideFlags: 0
@@ -38724,6 +38784,7 @@ GameObject:
   - component: {fileID: 9071168245090966396}
   - component: {fileID: 9071168245090966395}
   - component: {fileID: 9071168245090966399}
+  - component: {fileID: 9071168245090966400}
   m_Layer: 0
   m_Name: Enemy 2
   m_TagString: Untagged
@@ -40523,6 +40584,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9071168245090966400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8068724403940185358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18e5168ea4229c4ca0cab2bb7ae328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemPrefab: {fileID: 5218082832565535019, guid: 9843766bea5693c42b13de9596c37f87, type: 3}
+  particleSystemLifetime: 2
 --- !u!1 &9085124932183213995
 GameObject:
   m_ObjectHideFlags: 0
