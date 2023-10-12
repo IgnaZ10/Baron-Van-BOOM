@@ -15,6 +15,6 @@ public class ParticleBombController : MonoBehaviour
     }
     private void SelfDestruct()
     {
-        Destroy(this.gameObject,1f);
+        Destroy(this.gameObject,1.5f);
     }
 }
