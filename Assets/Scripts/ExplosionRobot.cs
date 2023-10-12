@@ -17,14 +17,20 @@ public class ExplosionRobot : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (gameObject.CompareTag("Enemy") && !isQuitting)
+        if (gameObject.CompareTag("Enemy") && !isQuitting && SceneManager.GetActiveScene().isLoaded)
         {
             // Instanciar el sistema de partículas en la posición del objeto que se está destruyendo
             GameObject particleSystemInstance = Instantiate(particleSystemPrefab, transform.position, Quaternion.identity);
 
+            // Obtener el componente ParticleSystem del sistema de partículas instanciado
+            ParticleSystem particleSystem = particleSystemInstance.GetComponent<ParticleSystem>();
+
             // Autodestruir el sistema de partículas después de particleSystemLifetime segundos
             Destroy(particleSystemInstance, particleSystemLifetime);
+
+            // Reproducir el sistema de partículas
+            particleSystem.Play();
         }
     }
-
 }
+
