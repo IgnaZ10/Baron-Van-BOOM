@@ -20,11 +20,14 @@ public class MenuPausa : MonoBehaviour
 
     private bool juegoPausado = false;
     private bool reinicioSolicitado = false;
+
+    public AudioSource cameraMusicGameplay;
     private void Update()
     {
         // Verificar si el objeto del jugador no está presente
         if (player == null)
         {
+            cameraMusicGameplay.Stop();
             Time.timeScale = 0f;
             botonPausa.SetActive(false);
             GameOver.SetActive(true);
