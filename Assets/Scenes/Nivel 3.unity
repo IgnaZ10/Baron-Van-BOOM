@@ -423,7 +423,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &32294340
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &70009902
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &74494917
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1369,7 +1369,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &99866908
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1740,7 +1740,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &153534761
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2257,7 +2257,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &204647206
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2372,7 +2372,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &204971766
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2588,7 +2588,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &249448621
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3392,7 +3392,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &314432317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3507,7 +3507,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &322775548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3659,7 +3659,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &327090042
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3774,7 +3774,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &332158495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4121,7 +4121,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &365407381
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4444,7 +4444,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &383992330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5121,7 +5121,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &414747373
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6122,7 +6122,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &469682120
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6451,7 +6451,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &496246342
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6566,7 +6566,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &499750489
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6776,7 +6776,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &531338600
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7180,7 +7180,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &558441294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7605,7 +7605,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &595271547
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7720,7 +7720,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &606088162
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7835,7 +7835,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &608926672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7950,7 +7950,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &640350960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8065,7 +8065,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &666500955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8346,7 +8346,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &708832101
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8461,7 +8461,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &716800953
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8610,7 +8610,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &730482365
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8725,7 +8725,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &732281643
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8840,7 +8840,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &733431282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8955,7 +8955,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &739220582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9167,7 +9167,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &745292729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9282,7 +9282,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &750847034
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9429,7 +9429,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &755735123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10045,7 +10045,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &789199527
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10970,7 +10970,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &873989348
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11306,7 +11306,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &937527152
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11421,7 +11421,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &945019413
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11689,7 +11689,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &966118271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11804,7 +11804,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &990530912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12313,7 +12313,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1026124834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13072,7 +13072,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1101179776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13285,7 +13285,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1107828019
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13767,7 +13767,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1144278701
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14540,7 +14540,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1231704400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14878,7 +14878,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1253693451
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14993,7 +14993,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1257421750
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15143,7 +15143,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1283498323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15355,7 +15355,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1303043063
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15501,7 +15501,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1339353238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15931,7 +15931,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1380074870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16046,7 +16046,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1396983848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16161,7 +16161,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1400924800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16333,7 +16333,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1419180259
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16528,7 +16528,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1456767546
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16971,7 +16971,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1522607829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17086,7 +17086,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1525512938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17201,7 +17201,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1526632690
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17316,7 +17316,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1530155645
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17431,7 +17431,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1531619720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17778,7 +17778,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1574971719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18180,7 +18180,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1593619134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18280,7 +18280,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1653250784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18550,7 +18550,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1683239834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18665,7 +18665,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1696439529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18899,7 +18899,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1741692239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19328,7 +19328,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1765936996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19702,7 +19702,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1847805951
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20368,7 +20368,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1945120345
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20483,7 +20483,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1945651947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20792,7 +20792,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1947899612
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20907,7 +20907,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &1952747476
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21413,7 +21413,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2016684962
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21528,7 +21528,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2022904320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26712,7 +26712,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2089487484
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26915,7 +26915,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2101822664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27097,7 +27097,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2117237359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27244,7 +27244,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2124128315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27359,7 +27359,7 @@ MonoBehaviour:
   objectToInstantiate: {fileID: 7105257869314597343}
   yOffset: 4.6
   maxCajas: 10
-  cajasCounterText: {fileID: 0}
+  cajasCounterText: {fileID: 488288469}
 --- !u!64 &2141464479
 MeshCollider:
   m_ObjectHideFlags: 0
