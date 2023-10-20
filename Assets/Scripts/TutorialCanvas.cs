@@ -11,6 +11,8 @@ public class TutorialCanvas : MonoBehaviour
     [SerializeField] private Text textTutorial;
     private int LineIndex = 0;
     public float tiempoEscritura = 0.03f;
+    [SerializeField] private AudioSource letra;
+    [SerializeField] private AudioClip letraBit;
     private void Start()
     {
         StartCoroutine(ShowLine());
@@ -23,6 +25,8 @@ public class TutorialCanvas : MonoBehaviour
         {
             textTutorial.text += ch;
             yield return new WaitForSeconds(tiempoEscritura);
+            letra.clip = letraBit;
+            letra.Play();
         }
     }
     private void NextDialogue()
@@ -40,7 +44,7 @@ public class TutorialCanvas : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             NextDialogue();
         }
