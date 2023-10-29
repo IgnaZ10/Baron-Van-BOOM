@@ -13,12 +13,15 @@ public class TutorialCanvas : MonoBehaviour
     public float tiempoEscritura = 0.03f;
     [SerializeField] private AudioSource letra;
     [SerializeField] private AudioClip letraBit;
+
+    private bool isTextFinished = false;
     private void Start()
     {
         StartCoroutine(ShowLine());
     }
     private IEnumerator ShowLine()
     {
+        isTextFinished = false;
         textTutorial.text = string.Empty;
 
         foreach (char ch in LineasTutorial[LineIndex])
@@ -28,9 +31,13 @@ public class TutorialCanvas : MonoBehaviour
             letra.clip = letraBit;
             letra.Play();
         }
+        isTextFinished = true;
     }
     private void NextDialogue()
     {
+        if (!isTextFinished) 
+            return;
+
         LineIndex++;
         if (LineIndex < LineasTutorial.Length)
         {

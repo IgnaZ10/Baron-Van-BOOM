@@ -13,12 +13,18 @@ public class Historia : MonoBehaviour
     public float tiempoEscritura = 0.03f;
     [SerializeField] private AudioSource letra;
     [SerializeField] private AudioClip letraBit;
-  private void Start()
+
+    // Variable para controlar si el texto se ha terminado de mostrar
+    private bool isTextFinished = false;
+
+    private void Start()
     {
         StartCoroutine(ShowLine());
     }
+
     private IEnumerator ShowLine()
     {
+        isTextFinished = false; // Inicializamos a false al comienzo de cada línea
         textTutorial.text = string.Empty;
 
         foreach (char ch in LineasTutorial[LineIndex])
@@ -28,9 +34,15 @@ public class Historia : MonoBehaviour
             letra.clip = letraBit;
             letra.Play();
         }
+
+        isTextFinished = true; // Marcamos como true cuando el texto se ha mostrado completamente
     }
+
     private void NextDialogue()
     {
+        if (!isTextFinished) // Si el texto no se ha terminado de mostrar, no hacemos nada
+            return;
+
         LineIndex++;
         if (LineIndex < LineasTutorial.Length)
         {
